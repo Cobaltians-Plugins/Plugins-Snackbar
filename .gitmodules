@@ -1,0 +1,9 @@
+[submodule "Web"]
+	path = Web
+	url = git://github.com/Cobaltians-Plugins/Plugins-Snackbar-Web.git
+[submodule "Android"]
+	path = Android
+	url = git://github.com/Cobaltians-Plugins/Plugins-Snackbar-Android.git
+[submodule "iOS"]
+	path = iOS
+	url = git://github.com/Cobaltians-Plugins/Plugins-Snackbar-iOS.git

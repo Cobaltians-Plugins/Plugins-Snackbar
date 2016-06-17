@@ -1,4 +1,4 @@
-# Battery Status Plugin
+# Snackbar Plugin
 
 The Snackbar plugin allows you to display popup messages with an optional button.
 
@@ -38,6 +38,8 @@ Here are the available properties:
 | `buttonColor` | Hexadecimal color | The button color |
 | `callback` | Function | The button callback |
 
+### Duration
+
 If specified, the duration should be a value from the `cobalt.snackbar.duration` enum:
 
 | Field | Description |
@@ -47,6 +49,10 @@ If specified, the duration should be a value from the `cobalt.snackbar.duration`
 | `INFINITE` | Infinite duration |
 
 __Note__: The `INFINITE` duration can only be used if a button is present.
+
+### Button color
+
+The button color must be provided as an hexadecimal code. Supported formats are `(#)RGB` or `(#)RRGGBB(AA)` (some valid examples: `#FF00BB`, `00FFEE`, `#666`, `1A3`, `#FF00BBAA`, `FF00BBAA`).
 
 ## Want more?
 
