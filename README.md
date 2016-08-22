@@ -33,9 +33,9 @@ Here are the available properties:
 | Property | Type | Description |
 |----------|------|-------------|
 | `text` | String | The snackbar message |
-| `duration` | Time in milliseconds | The snackbar duration |
+| `duration` | Number | The snackbar duration time in milliseconds |
 | `button` | String | The text of the button |
-| `buttonColor` | Hexadecimal color | The button color |
+| `buttonColor` | String | The button hexadecimal color (see note on color below) |
 | `callback` | Function | The button callback |
 
 ### Duration
