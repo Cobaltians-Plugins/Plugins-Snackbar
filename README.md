@@ -12,7 +12,7 @@ The Snackbar plugin allows you to display popup messages with an optional button
 
 Use the `cobalt.snackbar.show` shortcut:
 
-    cobalt.snackbar.show('Native snackbar!');
+    cobalt.snackbar.show('Simplest snackbar!');
 
 ## Complete usage
 
